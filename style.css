@@ -7,6 +7,16 @@ body, html {
     /*background: rgb(6,1,93);
     background: linear-gradient(153deg, rgba(6,1,93,1) 0%, rgba(6,1,93,1) 0%, rgba(184,198,194,1) 69%);*/
 }
+.container {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
+/*
+---------- HEADER ----------
+*/
 .header {
     background-color: #e7e5e4;
     padding: 10px;
@@ -27,14 +37,13 @@ li {
     text-align: center;
     display: block;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-}
+
+
 /*
-odkomentowac pozniej width i height zeby <section> home zajmowala cala "glowna" strone
-(tak bedzie latwiej kodowac jak nie trzeba bedzie ciagle scrollowac)
+---------- HOME ----------
 */
+
+
 .home {    
     width: 100vw;
     height: 100vh;
@@ -46,7 +55,6 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    
 }
 
 h1.home-content {
@@ -57,4 +65,25 @@ h1.home-content {
 }
 
 
+/*
+---------- ABOUT ME ----------
+*/
+
+
+.about-me-content {
+    overflow: hidden;
+}
+.personal {
+    float: left;
+    margin-left: 70px;
+}
+.interests {
+    float: right;
+    margin-right: 70px;
+}
+#about-me-and-interests {
+    width: 40%;
+
+    text-align: justify;
+}
 
