@@ -1,4 +1,8 @@
-body {
+/*@font-face {
+    font-family: ;
+    src: url();
+}*/
+body, html {
     background: #fafaf9;
     /*background: rgb(6,1,93);
     background: linear-gradient(153deg, rgba(6,1,93,1) 0%, rgba(6,1,93,1) 0%, rgba(184,198,194,1) 69%);*/
@@ -7,17 +11,50 @@ body {
     background-color: #e7e5e4;
     padding: 10px;
 }
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+}
+.navbar-element {
+    display: inline;
+    padding-left: 12px;
+    
+}
+li {
+    text-align: center;
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/*
+odkomentowac pozniej width i height zeby <section> home zajmowala cala "glowna" strone
+(tak bedzie latwiej kodowac jak nie trzeba bedzie ciagle scrollowac)
+*/
+.home {    
+    width: 100vw;
+    height: 100vh;
+}
 main {
+    text-align: center;
     position: absolute;
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    
 }
-.home-content {
-    text-align: center;
+
+h1.home-content {
+    font-family: Futura;
 }
 .icons {
     
 }
+
+
 
