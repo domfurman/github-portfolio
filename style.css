@@ -8,10 +8,16 @@ body {
     padding: 10px;
 }
 main {
-    justify-content:center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.home-content {
     text-align: center;
 }
-h1.home-content {
-    display: block;
+.icons {
+    
 }
 
