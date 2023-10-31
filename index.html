@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/79683450f9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -13,20 +14,20 @@
             <span class="header-inner">
                 <span class="header-right">
                     <ul class="navbar">
-                        <li class="navbar-element">HOME</li>
-                        <li class="navbar-element">ABOUT</li>
-                        <li class="navbar-element">EDUCATION AND EXPERIENCE</li>
-                        <li class="navbar-element">PROJECTS</li>
+                        <li class="navbar-element" ><a href="#home" onclick="showHome()">HOME</a></li>
+                        <li class="navbar-element" ><a href="#about" onclick="showAbout()">ABOUT</a></li>
+                        <li class="navbar-element" ><a href="#eduacation-and-experience" onclick="showEduAndXp()">EDUCATION AND EXPERIENCE</a></li>
+                        <li class="navbar-element" ><a href="#projects" onclick="showProjects()">PROJECTS</a></li>
                     </ul>
                 </span>
             </span>
         </header>
 
-        <section class="home">
-            <div class="home-content">
+        <section id="home">
+            <div id="home-content">
                 <main>
-                    <h1>Dominik Furman</h1>
-                    <p>Student Informatyki Stosowanej</p>
+                    <h1>DF</h1>
+                    <p>SIS</p>
                     <div class="icons">
                         <i class="fa-brands fa-github"></i>
                         <i class="fa-brands fa-linkedin"></i>
@@ -39,18 +40,18 @@
 
         </section>
 
-        <section class="about-me">
-            <div class="about-me-content">
+        <section id="about-me">
+            <div id="about-me-content">
                 <article>
                     <h2>
                         Coś o mnie...
                     </h2>
-                    <div class="personal" id="about-me-and-interests">
+                    <div id="personal" class="about-me-and-interests">
                         <p>
                             Cześć, nazywam się Dominik. Jestem studentem 3 roku na kierunku Informatyka Stosowana na Uniwersytecie Ekonomicznym w Krakowie.
                         </p>
                     </div>
-                    <div class="interests" id="about-me-and-interests">
+                    <div id="interests" class="about-me-and-interests">
                         <p>
                             Od najmłodszych lat interesuję się sportami, a zwłaszcza piłką nożną. aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                         </p>
@@ -60,14 +61,14 @@
 
         </section>
 
-        <section class="edu-and-xp">
-            <div class="edu-and-xp-content">
-                <div class="education" id="edu-and-xp-content-id">
+        <section id="edu-and-xp">
+            <div id="edu-and-xp-content">
+                <div id="education" id="edu-and-xp-content-id">
                     <h2 id="edu-and-xp-heads">
                         Edukacja
                     </h2>
                 </div>
-                <div class="experience" id="edu-and-xp-content-id">
+                <div id="experience" id="edu-and-xp-content-id">
                     <h2 id="edu-and-xp-heads">
                         Doświadczenie zawodowe
                     </h2>
@@ -76,9 +77,10 @@
 
         </section>
 
-        <section class="projects">
-            <div class="projects-content">
-
+        <section id="projects">
+            <div id="projects-content">
+                <h1>STILL IN DISTRIBUTION</h1>
+                <h2>COME BACK LATER</h2>
             </div>
         </section>
     </div>

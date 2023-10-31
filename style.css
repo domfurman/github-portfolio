@@ -11,7 +11,7 @@ body, html {
     display: flex;
     flex-direction: column;
 }
-h2 {
+h1, h2 {
     text-align: center;
 }
 /*
@@ -44,10 +44,10 @@ li {
 */
 
 
-.home {    
-    width: 100vw;
+/* .home {    
+    width: 100vw; 
     height: 100vh;
-}
+} */
 main {
     text-align: center;
     position: absolute;
@@ -70,20 +70,39 @@ h1.home-content {
 */
 
 
-.about-me-content {
+#about-me {
     overflow: hidden;
+    display: none;
 }
-.personal {
+#personal {
     float: left;
     margin-left: 70px;
 }
-.interests {
+#interests {
     float: right;
     margin-right: 70px;
 }
-#about-me-and-interests {
+.about-me-and-interests {
     width: 40%;
 
     text-align: justify;
+}
+
+/* 
+---------- EDU AND EXP ----------
+*/
+
+
+#edu-and-xp {
+    display: none;
+}
+
+
+/* 
+---------- PROJECTS ----------
+*/
+
+#projects {
+    display: none;
 }
 
