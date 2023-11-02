@@ -52,6 +52,7 @@ li {
     text-align: center;
     left: 50%;
     transform: translate(-50%);
+    height: 3rem
 }
 
 
@@ -73,6 +74,7 @@ main {
     left: 50%;
     transform: translate(-50%, -30%);
     padding: 10px;
+    padding-bottom: 3rem
 }
 
 h1.home-content {
@@ -88,21 +90,28 @@ h1.home-content {
 */
 
 #about-me {
-    overflow: hidden;
-    display: none;
+    /* overflow: hidden;
+    display: none; */
+    /* border: 5px solid; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 3rem
+    
 }
 #personal {
-    float: left;
-    margin-left: 70px;
+    /* float: left;
+    margin-left: 70px; */
 }
 #interests {
-    float: right;
-    margin-right: 70px;
+    /* float: right;
+    margin-right: 70px; */
 }
 .about-me-and-interests {
-    width: 40%;
+    /* width: 40%;
 
-    text-align: justify;
+    text-align: justify; */
 }
 
 /* 
