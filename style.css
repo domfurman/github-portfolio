@@ -8,10 +8,10 @@ body, html {
     /*background: rgb(6,1,93);
     background: linear-gradient(153deg, rgba(6,1,93,1) 0%, rgba(6,1,93,1) 0%, rgba(184,198,194,1) 69%);*/
 }
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
-}
+} */
 h1, h2 {
     text-align: center;
 }
@@ -113,16 +113,41 @@ h1.home-content {
 ---------- EDU AND EXP ----------
 */
 
-#edu-and-xp {
-    display: none;
+#edu-and-xp-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    /* margin-top: 12%; */
+    overflow: hidden;
+    
 }
 .edu-and-xp-inner {
-    text-align: center;
+    text-align: center; 
 }
 .edu-and-xp-list {
     display: inline-block;
     text-align: left;   
 }
+#education, #experience {
+    border: 1px solid black;
+    width: 49%;
+}
+#education {
+    /* margin-left: 25%; */
+    float: left;
+}
+#experience {
+    /* margin-right: 25%; */
+    float: right;
+}
+
+
 
 
 /* 
