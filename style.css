@@ -76,14 +76,29 @@ main {
     padding: 10px;
     padding-bottom: 3rem
 }
+main > h1 {
+    font-family: 'Readex Pro', serif;
+    font-size: 45px;
+    margin-bottom: -5px;
+}
+#desc {
+    font-family: 'Noto Serif Balinese', serif;
+    font-size: 18px;
+}
 
 h1.home-content {
     font-family: Futura;
 }
 .icons {
-    
+    font-size: 20px;
+    /* text-align: center; */
 }
-
+div > i {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
 
 /*
 ---------- ABOUT ME ----------
@@ -100,14 +115,15 @@ h1.home-content {
     padding-bottom: 3rem
     
 }
-#personal {
+#personal, #interests {
     /* float: left;
     margin-left: 70px; */
 }
-#interests {
-    /* float: right;
-    margin-right: 70px; */
+div > h3 {
+    font-family: 'Pacifico', serif;
+    font-size: 25px;
 }
+
 
 /* 
 ---------- EDU AND EXP ----------
