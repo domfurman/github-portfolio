@@ -125,6 +125,8 @@ h1.home-content {
     /* padding: 10px; */
     /* margin-top: 12%; */
     overflow: hidden;
+    padding-bottom: 3rem;
+    width: 50%;
     
 }
 .edu-and-xp-inner {
@@ -148,8 +150,6 @@ h1.home-content {
 }
 
 
-
-
 /* 
 ---------- PROJECTS ----------
 */
@@ -157,4 +157,32 @@ h1.home-content {
 #projects {
     display: none;
 }
-
+#projects-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    width: 50%;
+}
+.projects-content-inner {
+    text-align: center;
+}
+.projects-list {
+    display: inline-block;
+    text-align: left;
+}
+#uni-projects, #individual-projects {
+    border: 1px solid black;
+    width: 49%;
+}
+#uni-projects {
+    float: left;
+}
+#individual-projects {
+    float: right;
+}
